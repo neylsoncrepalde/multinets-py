@@ -1,0 +1,8 @@
+# Package metadata lives in setup.py.
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "src"]
+addopts = ["--doctest-modules"]
